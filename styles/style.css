@@ -15,6 +15,7 @@
     font-family: Poppins;
     font-size: 1.15rem;
     font-weight: 400;
+    margin-bottom: 1rem;
 }
 #heading{
     color: rgb(18, 18, 18);
@@ -140,6 +141,24 @@
     margin-bottom: 1rem;
 }
 /* plan section ends here */
+
+/* donation section starts here */
+.donation-container{
+    display: flex;
+    align-items: center;
+    margin: 4rem 4rem;
+    gap: 4rem;
+}
+.donation-content{
+    width: 45%;
+}
+.donation-image{
+    width: 40%;
+}
+.donation-image img{
+    width: 100%;
+}
+/* donation section ends here */
 
 /* update section starts here */
 .update-content{
