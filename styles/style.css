@@ -62,3 +62,54 @@
     font-weight: 400;
 }
 /* banner section ends here */
+
+/* donate section starts here */
+.donate-container{
+    margin-top: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.donate-container p{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+.donate-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.donate-item{
+    height: 7.5rem;
+    width: 8.25rem;
+}
+.donate-item h2{
+    color: rgb(112, 112, 112);
+    font-family: Inter;
+    font-size: 1.85rem;
+    font-weight: 700;
+    margin-top: 2.5rem;
+}
+.extra{
+    border: 2px solid rgb(255, 89, 89);
+    border-radius: 5px;
+    background-color: rgb(255, 238, 238);
+}
+.extra h2{
+    color: rgb(255, 89, 89);
+}
+.donate-container h6{
+    width: 56%;
+    color: rgb(179, 179, 179);
+    font-family: Poppins;
+    font-size: 1.15rem;
+    font-weight: 400;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    padding-bottom: .75rem;
+    border-bottom: 1px solid rgb(218, 218, 218);
+}
+/* donate section ends here */
