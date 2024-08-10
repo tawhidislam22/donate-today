@@ -21,6 +21,7 @@
     font-family: Inter;
     font-size: 3rem;
     font-weight: 700;
+    margin-bottom: 1.25rem;
 }
 #btn-primary{
     border-radius: 5px;
@@ -113,3 +114,29 @@
     border-bottom: 1px solid rgb(218, 218, 218);
 }
 /* donate section ends here */
+
+/* plan section starts here */
+.plan-content{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.card-box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    margin: 2rem 4rem;
+}
+.card{
+    border-radius: 5px;
+    padding: 2rem 1rem ;
+}
+.card h2{
+    color: rgb(18, 18, 18);
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+/* plan section starts here */
