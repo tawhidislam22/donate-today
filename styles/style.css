@@ -140,3 +140,25 @@
     margin-bottom: 1rem;
 }
 /* plan section starts here */
+
+
+/* footer section starts here */
+footer{
+    background-color:  rgb(11, 13, 23);
+    padding: 2rem;
+    text-align: center;
+}
+footer h2{
+    color: rgb(255, 89, 89);
+    font-family: Lobster;
+    font-size: 2.25rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+footer p{
+    color: rgb(217, 219, 225);
+    font-family: Manrope;
+    font-size: .85rem;
+    font-weight: 400;
+}
+/* footer section starts here */
