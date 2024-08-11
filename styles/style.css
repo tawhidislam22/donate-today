@@ -214,3 +214,48 @@ footer p{
     font-weight: 400;
 }
 /* footer section starts here */
+
+@media screen and (max-width:576px) {
+    .banner{
+        padding: 10rem 2rem;
+    }
+    .banner h1{
+        font-size: 3rem;
+    }
+    .banner p{
+        width: 80%;
+    }
+    .donate-container p{
+        width: 80%;
+    }
+    .donate-items{
+        flex-wrap: wrap;
+    }
+    .plan-content{
+        width: 80%;
+    }
+    .card-box{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .donation-container{
+        flex-direction:column-reverse;
+        margin: 2rem 1.5rem;
+    }
+    .donation-content{
+        width: 100%;
+        text-align: center;
+    }
+    #heading{
+        font-size: 2.5rem;
+    }
+    .donation-image{
+        width: 100%;
+    }
+    .update-content{
+        width: 80%;
+    }
+    .update-data{
+        width: 90%;
+        padding: 4rem;
+    }
+}
